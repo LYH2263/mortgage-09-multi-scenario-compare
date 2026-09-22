@@ -3,6 +3,7 @@ import LoanDashboard from './pages/LoanDashboard.vue'
 import LoanList from './pages/LoanList.vue'
 import LoanDetail from './pages/LoanDetail.vue'
 import ScheduleWorkbench from './pages/ScheduleWorkbench.vue'
+import PlanCompare from './pages/PlanCompare.vue'
 import RateRules from './pages/RateRules.vue'
 import AmortPreview from './pages/AmortPreview.vue'
 import PaymentHistory from './pages/PaymentHistory.vue'
@@ -15,6 +16,7 @@ export default createRouter({
     { path: '/loans', component: LoanList },
     { path: '/loans/:id', component: LoanDetail },
     { path: '/schedule', component: ScheduleWorkbench },
+    { path: '/compare', component: PlanCompare },
     { path: '/rates', component: RateRules },
     { path: '/amort', component: AmortPreview },
     { path: '/history', component: PaymentHistory },
